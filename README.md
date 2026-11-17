@@ -31,7 +31,7 @@ npm start          # 生产：http://127.0.0.1:5178
 npm run check      # 数据与引擎自检（8 组断言）
 ```
 
-Node 18 以上。启动时会后台拉取官方行情并缓存到 `server/data/cache/agri-daily.json`；仓库内已包含一份快照，因此首次运行即使无网络也能看到数据。
+Node 18 以上（开发环境用 22，见 `.nvmrc`）。启动时会后台拉取官方行情并缓存到 `server/data/cache/agri-daily.json`；仓库内已包含一份快照，因此首次运行即使无网络也能看到数据。
 
 ## 数据来源与口径
 
