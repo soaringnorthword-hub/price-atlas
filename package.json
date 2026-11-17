@@ -1,0 +1,47 @@
+{
+  "name": "price-atlas",
+  "version": "1.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Cross-region commodity price atlas with authority-weighted multi-source fusion",
+  "keywords": [
+    "price",
+    "commodity",
+    "data-visualization",
+    "echarts",
+    "react",
+    "express"
+  ],
+  "license": "MIT",
+  "author": "soaringnorthword-hub",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soaringnorthword-hub/price-atlas.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:web": "vite",
+    "dev:server": "node server/index.mjs",
+    "build": "vite build",
+    "start": "node server/index.mjs",
+    "check": "node server/selftest.mjs",
+    "prestart": "vite build",
+    "serve": "node server/index.mjs"
+  },
+  "dependencies": {
+    "echarts": "^5.5.1",
+    "express": "^4.21.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}
